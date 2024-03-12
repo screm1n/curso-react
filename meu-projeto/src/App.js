@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld'
 
 function App() {
   const name = 'Octávio'
@@ -10,6 +11,7 @@ function App() {
       <h1>Olá, {name}!</h1>
       <p>Meu primeiro App</p>
       <img src ={url} width={350} alt='minha imagem' />
+      <HelloWorld />
     </div>
   )
 }
