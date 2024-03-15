@@ -1,9 +1,6 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld'
-import SayMyName from './components/SayMyName';
-import Pessoa from './components/Pessoa';
-import Frase from './components/Frase';
-import List from './components/List'
+import Evento from './components/Evento';
+import Form from './components/Form'
 
 function App() {
   const name = 'Octávio'
@@ -12,17 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Olá, {name}!</h1>
-      <p>Meu primeiro App</p>
-      <img src ={url} width={350} alt='minha imagem' />
-      <HelloWorld />
-      <SayMyName nome='Octavio' />
-      <Pessoa 
-      nome="Octavio" 
-      idade="22"
-      profissao="Programador" />
-      <Frase />
-      <List />
+      <h1>Testando Eventos</h1>
+      <Evento />
+      <Form />
     </div>
   )
 }
