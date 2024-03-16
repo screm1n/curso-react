@@ -3,9 +3,6 @@ import Evento from './components/Evento';
 import Form from './components/Form'
 
 function App() {
-  const name = 'Octávio'
-  
-  const url = 'https://i.imgur.com/1TkfhNy.jpeg'
 
   return (
     <div className="App">
